@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+
+.header {
+	text-align: center;
+	width: 100%;
+	height: 1.82rem;
+	border-bottom: 2px solid #07ca61;
+	position: relative;
+	font-size: 0.68rem;
+	line-height: 1.82rem;
+	color: #333;
+}
+
+.back-btn {
+	position: absolute;
+	left: 0;
+	border: 0;
+	width: 1.24rem;
+	height: 1.82rem;
+	background: url(../img/arrow.png) no-repeat center center;
+}
+
+.header span a {
+	display: inline-block;
+	font-size: 0.48rem;
+	float: right;
+	color: #6a6a6a;
+	margin-right: 0.4rem;
+	text-decoration: none;
+}
+
+
+
+.cue {
+	border-bottom: 1px solid #dadada;
+	height: 3rem;
+}
+
+.cue-wait {
+	display: none;
+}
+
+.cue .p1 {
+	padding-top: 0.56rem;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #333;
+	height: 1rem;
+	line-height: 1rem;
+}
+
+.cue .p2 {
+	padding-bottom: 0.4rem;
+	text-align: center;
+	font-size: 0.48rem;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	color: #ccc;
+}
+
+.cue .p2 span {	
+	color: #07ca61;
+}
+
+.driver-detail {
+	margin: 0 0.4rem auto;
+}
+
+.driver-img {
+	
+}
+
+.driver-img img {
+	margin-top: 0.38rem;
+	margin-right: 0.44rem;
+	width: 2.12rem;
+	height: 2.14rem;
+	border-radius: 50%;
+}
+
+.detail {
+	border-top: 20px solid #ebebeb;
+	padding: 0 0.4rem;
+}
+
+.detail .p3 {
+	overflow: hidden;
+	border-bottom: 1px solid #dadada;
+}
+
+.detail .p3 .time-img {
+	float: left;
+	margin-top: 0.4rem;	
+	width: 0.52rem;
+	height: 0.52rem;
+	line-height: 0.52rem;
+	margin-right: 0.24rem;
+	background: url(../img/time.png) no-repeat center center;	
+}
+
+.time {
+	display: inline-block;
+	float: left;
+	color: #969696;
+	font-size: 0.4rem;
+	height: 1.36rem;
+	line-height: 1.36rem;
+}
+
+.wait-driver {
+	display: inline-block;
+	float: right;
+	font-size: 0.48rem;
+	color: #07ca61;
+	height: 1.36rem;
+	line-height: 1.36rem;
+}
+
+.p4 {
+	overflow: hidden;
+	border-bottom: 1px solid #dadada;
+	font-size: 0.5rem;
+	text-align: right;
+}
+
+.p4 .sp1 {
+	float: left;
+	font-size: 0.56rem;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	color: #969696;
+}
+
+.p4 .sp2 {
+	float: right;
+	font-size: 0.56rem;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	color: #333;
+}
+
+.p4 .div-box {
+	float: right;
+	padding-top: 0.64rem;
+	font-size: 0.56rem;
+	height: 1.94rem;
+	color: #333;
+}
+
+.p4 .div-box span {
+	color: #969696;
+}
+
+.p4 .sp-1 {
+	float: left;
+	font-size: 0.56rem;
+	height: 2.58rem;
+	line-height: 2.58rem;
+	color: #969696;
+}
+
+.p4 .sp-2 {
+	float: right;
+	font-size: 0.56rem;
+	height: 2.58rem;
+	line-height: 2.58rem;
+	color: #333;
+}
+
+.p5 {
+	overflow: hidden;
+	font-size: 0.56rem;
+}
+
+.p5 .sp5 {
+	float: left;
+	font-size: 0.56rem;
+	height: 1.16rem;
+	line-height: 1.16rem;
+	color: #969696;
+}
+
+.p5 .sp-5 {
+	float: right;
+	font-size: 0.56rem;
+	height: 1.16rem;
+	line-height: 1.16rem;
+	color: #333;
+}
+
+.p5 .sp-5 em {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.4rem;
+	width: 0.28rem;
+	height: 0.48rem;
+	background: url(../img/arrow-2.png) no-repeat;
+}
+
+.footer {
+	background: #f9f9f9;
+}
+
+.footer p {
+	padding: 0.48rem 0 0.44rem 0;
+	text-align: center;
+	font-size: 0.44rem;
+	line-height: 0.72rem;
+	color: #07ca61;
+}
+
+i {
+	font-style: normal;
+	color: #f32f00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

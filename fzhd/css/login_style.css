@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+/*输入框在Ios手机上，默认有内阴影。而且这个内阴影通过box-shadow是去不掉的。*/
+input {
+    outline: none;
+    border: 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+button {
+    border: 0;
+    outline: none;
+}
+
+
+.logo {
+	width: 100%;
+	height: 6.08rem;
+	background: #ebebeb;
+	overflow: hidden;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+	width: 5.14rem;
+	height: 1.94rem;
+}
+
+.main {
+	border-top: 1px solid #dadada;
+}
+
+.login-main {
+	margin: 0 20px;
+}
+
+.phone {
+	position: relative;
+	height: 1.96rem;
+	border-bottom: 1px solid #dadada;
+}
+
+label {
+	font-size: 0.56rem;
+	color: #969696;
+	margin-right: 1.2rem;
+}
+
+.phone input {
+	border: 0;
+	font-size: 0.56rem;
+	color: #000;
+	margin-right: 1.5rem;
+	letter-spacing: 0.1rem;
+}
+
+button {	
+	font-size: 0.56rem;
+	color: #07ca61;
+	border: 0;
+	background: #fff;
+	margin-right: 0;
+}
+
+.agreement {
+	margin-top: 0.4rem;
+	font-size: 0.56rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	color: #b4b4b4;
+	background: url(../img/agree.png) no-repeat left center;
+	background-size: contain;
+    padding-left: 0.74rem;
+}
+
+/*.agreement {
+	font-size: 0.56rem;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    color: #969696;
+    background: url('../img/agree.png') no-repeat left center ;
+    background-size: contain;
+    padding-left: 0.74rem;
+    margin-top: 0.4rem;
+}*/
+
+
+/*.sp1 {
+	display: inline-block;
+	width: 0.48rem;
+	height: 0.48rem;
+	margin-right: 0.08rem;
+	background: url(../img/agree.png) no-repeat center;
+}*/
+
+.login-btn {
+	margin-top: 1.6rem;
+	text-align: center;
+	font-size: 0.56rem;
+	color: #fff;
+	background: #07ca61;
+	width: 100%;
+	height: 1.92rem;
+	border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
